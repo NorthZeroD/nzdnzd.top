@@ -16,7 +16,7 @@ titleSuffix: ""
 
 [Afdian](https://afdian.com/a/NorthZeroD)
 
-## Friend
+## Friends
 
 [Afingpo](https://afipo.top)
 

@@ -4,25 +4,31 @@
   font-display: swap;
 }
 
-body {
-  background-color: #181818;
-  color: #ccc;
+html {
   font-size: 24px;
   font-family: "Maple Mono NL";
 }
 
+body {
+  background-color: #181818;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
 a {
-  color: #eee;
-}
-/* a:link {
   color: #fff;
+  text-decoration: none;
 }
-a:hover {
-  color: #eee;
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 20px;
 }
-a:active {
-  color: #aaa;
-}
-a:visited {
-  color: #bbb;
-} */
