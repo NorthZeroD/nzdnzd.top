@@ -19,3 +19,5 @@ titleSuffix: ""
 ## Friend
 
 [Afingpo](https://afipo.top)
+
+[Fenghui](https://blog.huidev.com)
