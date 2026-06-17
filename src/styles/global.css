@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Maple Mono NL";
+  src: url("/fonts/MapleMonoNL-Light.ttf.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  background-color: #181818;
+  color: #ccc;
+  font-size: 24px;
+  font-family: "Maple Mono NL";
+}
+
+a {
+  color: #eee;
+}
+/* a:link {
+  color: #fff;
+}
+a:hover {
+  color: #eee;
+}
+a:active {
+  color: #aaa;
+}
+a:visited {
+  color: #bbb;
+} */

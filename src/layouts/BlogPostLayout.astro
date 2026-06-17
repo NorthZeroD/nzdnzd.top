@@ -1,0 +1,21 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout frontmatter={frontmatter}>
+  <h1>{frontmatter.title}</h1>
+  <time datetime={frontmatter.pubDate.toISOString()}>
+    {frontmatter.pubDate.toISOString().slice(0, 10)}
+  </time>
+  <div id="post-slot-wrapper">
+    <slot />
+  </div>
+  <a href="/blog">cd ..</a>
+</BaseLayout>
+
+<style>
+  #post-slot-wrapper {
+    text-align: start;
+  }
+</style>

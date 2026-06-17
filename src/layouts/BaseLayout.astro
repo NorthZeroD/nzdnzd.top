@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+const { frontmatter } = Astro.props;
+---
+
+<html lang="zh-Hans">
+  <Header title={frontmatter.title} titleSuffix={frontmatter.titleSuffix}/>
+  <body>
+    <main>
+      <div id="root-slot-wrapper">
+        <slot />
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  #root-slot-wrapper {
+    max-width: 40ch;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    text-align: center;
+  }
+</style>

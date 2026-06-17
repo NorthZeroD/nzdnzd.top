@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogItem from "../components/BlogItem.astro";
+
+const { frontmatter } = Astro.props;
+
+const allPosts = await getCollection("blog");
+const sortedPosts = allPosts.sort((a, b) => {
+  const dateA = a.data.pubDate ? new Date(a.data.pubDate).getTime() : 0;
+  const dateB = b.data.pubDate ? new Date(b.data.pubDate).getTime() : 0;
+  return dateB - dateA;
+});
+---
+
+<BaseLayout frontmatter={frontmatter}>
+  <h1>{frontmatter.title}</h1>
+  <slot />
+  <slot name="before-post-list" />
+  <div id="post-list-wrapper">
+    <ul>
+      {
+        sortedPosts.map((post) => (
+          <BlogItem url={`/blog/${post.id}`} title={post.data.title} />
+        ))
+      }
+    </ul>
+  </div>
+  <slot name="after-post-list" />
+  <a href="/">cd ..</a>
+</BaseLayout>
+
+<style>
+  #post-list-wrapper ul {
+    list-style: none;
+    padding: 0;
+  }
+</style>
