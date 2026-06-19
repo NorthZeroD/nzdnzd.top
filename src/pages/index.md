@@ -6,6 +6,8 @@ titleSuffix: ""
 
 # NorthZero :D
 
+## [About](/about)
+
 ## [Blog](/blog)
 
 ## Social
@@ -16,8 +18,4 @@ titleSuffix: ""
 
 [Afdian](https://afdian.com/a/NorthZeroD)
 
-## Friends
-
-[Afingpo](https://afipo.top)
-
-[Fenghui](https://blog.huidev.com)
+## [Friends](/friends)

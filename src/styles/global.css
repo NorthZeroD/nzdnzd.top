@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Maple Mono NL";
+  font-family: "Maple Mono NL Light";
   src: url("/fonts/MapleMonoNL-Light.ttf.woff2") format("woff2");
   font-display: swap;
 }
 
 html {
   font-size: 24px;
-  font-family: "Maple Mono NL";
+  font-family: "Maple Mono NL Light";
   background-color: #181818;
   color: #ccc;
 }
