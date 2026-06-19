@@ -10,7 +10,7 @@ export default defineConfig({
     contentIntellisense: true,
   },
 
-  // site: "https://nzdnzd.top",
+  site: "https://nzdnzd.top",
   trailingSlash: "ignore",
   output: "static",
   srcDir: "./src",

@@ -9,4 +9,4 @@ I don't know.
 
 ## Website's source code?
 
-[HERE](https://github.com/NorthZeroD/northzerod.github.io)
+[Here](https://github.com/NorthZeroD/northzerod.github.io)

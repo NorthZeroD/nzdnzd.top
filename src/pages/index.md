@@ -10,6 +10,8 @@ titleSuffix: ""
 
 ## [Blog](/blog)
 
+[RSS](/rss.xml)
+
 ## Social
 
 [Email](mailto:nzd@nzdnzd.top)
