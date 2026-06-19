@@ -7,4 +7,4 @@ title: Friends
 
 ## [Fenghui](https://blog.huidev.com)
 
-*Add...*
+[_Add..._](https://github.com/NorthZeroD/northzerod.github.io/edit/main/src/pages/friends.md)
