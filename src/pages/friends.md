@@ -3,8 +3,8 @@ layout: ../layouts/SubPageLayout.astro
 title: Friends
 ---
 
-## [Afingpo](https://afipo.top)
+## [涵哲子](https://iluc.cn)
 
-## [Fenghui](https://blog.huidev.com)
+## [风绘](https://blog.huidev.com)
 
 [_Add..._](https://github.com/NorthZeroD/nzdnzd.top/edit/main/src/pages/friends.md)
