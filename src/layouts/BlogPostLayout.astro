@@ -14,8 +14,8 @@ const { frontmatter } = Astro.props;
   <a href="/blog">cd ..</a>
 </BaseLayout>
 
-<style>
+<style define:vars={{ textAlign: frontmatter.textAlign ?? "center" }}>
   #post-slot-wrapper {
-    text-align: start;
+    text-align: var(--textAlign);
   }
 </style>

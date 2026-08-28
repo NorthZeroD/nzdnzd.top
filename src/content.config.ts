@@ -7,6 +7,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     pubDate: z.date(),
+    textAlign: z.enum(["start", "center", "end"]).default("start"),
     // description: z.string(),
     // author: z.string(),
     // image: z.object({
