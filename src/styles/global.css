@@ -56,3 +56,8 @@ a:hover {
 a:hover::after {
   transform: scaleX(1);
 }
+
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
